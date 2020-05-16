@@ -12,6 +12,6 @@ script:
   - make docker_push
 
 deploy:
-provider: heroku
-app: guarded-refuge-22606
-api_key: ${HEROKU_API_KEY}
+  provider: heroku
+  app: guarded-refuge-22606
+  api_key: ${HEROKU_API_KEY}
